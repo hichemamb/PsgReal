@@ -1,0 +1,1622 @@
+@font-face {
+  font-family: 'catamaranregular';
+  src: url('catamaran-regular-webfont.woff2') format('woff2'), url('catamaran-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+
+
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#151e2c;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menuContainer{
+    display:none;
+  }
+  .bouton {
+
+    position:absolute;
+    top:15%;
+    right:5%;
+    border: none;
+    background: #151e2c;
+    color:#ff1541 ;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    box-shadow: 0px 0px 0px 1px #ff1541;
+    outline-style: none;
+  }
+
+  .bouton:hover {
+    background: #ff1541;
+    color: #151e2c;
+  }
+
+
+
+/* SECTION ACCUEIL */
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+/* SECTION MBAPPE */
+
+.mbappe{
+  position:relative;
+}
+
+.titleMbappe{
+  font-family: 'catamaranregular';
+  color:#151e2c;
+  text-align: center;
+  font-size:25px;
+  padding-top:15%;
+
+}
+.ballon{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer{
+  position:absolute;
+  left:46%;
+  top:1%;
+}
+
+.ballon2{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer2{
+  position:absolute;
+  left:46%;
+  top:1%;
+}
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.mbappeContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.articleContainer {
+
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+}
+
+.articleContainer .mbappe1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.articleContainer .mbappe4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.mbappe1{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe1.png) no-repeat top center;
+
+
+}
+
+.mbappe2{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe2.png) no-repeat top center;
+
+
+}
+
+.mbappe3{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe3.png) no-repeat top center;
+
+
+}
+
+.mbappe4{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe4.png) no-repeat top center;
+
+
+}
+
+
+/* SECTION NEYMAR */
+
+.neymar{
+
+  background-color:#151e2c;
+  position:relative;
+}
+
+.titleNeymar{
+  font-family: 'catamaranregular';
+  color:#ff1541;
+  text-align: center;
+  font-size:25px;
+  margin-top:15%;
+  padding-top:15%;
+}
+
+.ballon{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer{
+  position:absolute;
+  left:46%;
+  top:1%;
+}
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.neymarContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.articleContainer {
+
+  margin-bottom: 10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.articleContainer .neymar1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.articleContainer .neymar4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.neymar1{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar1.png) no-repeat top center;
+
+
+}
+
+.neymar2{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar2.png) no-repeat top center;
+
+
+}
+
+.neymar3{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar3.png) no-repeat top center;
+
+
+}
+
+.neymar4{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar4.png) no-repeat top center;
+
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content{
+  margin-top:0px;
+
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay2 {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content2{
+  margin-top:0px;
+
+
+}
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+
+
+
+.fb{
+  width:20px;
+  height:20px;
+}
+
+
+.insta{
+
+    width:20px;
+    height:20px;
+
+}
+
+.twitter{
+  width:20px;
+  height:20px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:40%;
+
+}
+
+.subscribe{
+  display:none;
+
+}
+
+
+}
+
+
+@media (min-width: 480px) and (max-width:1010px) {
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#151e2c;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menuContainer{
+    display:none;
+  }
+  .bouton {
+
+    position:absolute;
+    top:15%;
+    right:5%;
+    border: none;
+    background: #151e2c;
+    color:#ff1541 ;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    box-shadow: 0px 0px 0px 1px #ff1541;
+    outline-style: none;
+  }
+
+  .bouton:hover {
+    background: #ff1541;
+    color: #151e2c;
+  }
+
+  .menuContainer{
+    display: none;
+  }
+
+
+
+
+
+
+/* SECTION ACCUEIL */
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+/* SECTION MBAPPE */
+
+.mbappe{
+  position:relative;
+  height:300px;
+}
+
+.titleMbappe{
+  font-family: 'catamaranregular';
+  color:#151e2c;
+  text-align: center;
+  font-size:25px;
+  padding-top:5%;
+
+}
+.ballon{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer{
+  position:absolute;
+  left:48%;
+  top:0;
+}
+
+.ballon{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.mbappeContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-around;
+
+
+
+}
+
+.articleContainer {
+
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+}
+
+.articleContainer .mbappe1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.articleContainer .mbappe4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.mbappe1{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe1.png) no-repeat top center;
+
+
+}
+
+.mbappe2{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe2.png) no-repeat top center;
+
+
+}
+
+.mbappe3{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe3.png) no-repeat top center;
+
+
+}
+
+.mbappe4{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe4.png) no-repeat top center;
+
+
+}
+
+
+/* SECTION NEYMAR */
+
+.neymar{
+
+  background-color:#151e2c;
+  position:relative;
+  height:450px;
+}
+
+.titleNeymar{
+  font-family: 'catamaranregular';
+  color:#ff1541;
+  text-align: center;
+  font-size:25px;
+  margin-top:15%;
+  padding-top:5%;
+}
+
+.ballon2{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer2{
+  position:absolute;
+  left:48%;
+  top:0;
+}
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.neymarContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.articleContainer {
+
+  margin-bottom: 10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.articleContainer .neymar1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+.neymar1{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar1.png) no-repeat top center;
+
+
+}
+
+.neymar2{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar2.png) no-repeat top center;
+
+
+}
+
+.neymar3{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar3.png) no-repeat top center;
+
+
+}
+
+.neymar4{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar4.png) no-repeat top center;
+
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content{
+  margin-top:0px;
+
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay2 {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content2{
+  margin-top:0;
+
+
+}
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+.subscribe{
+  position:absolute;
+  top:20px;
+  right:42%;
+}
+
+.zoneSubscribe{
+
+}
+
+.fb{
+  width:40px;
+  height:40px;
+}
+
+
+.insta{
+
+    width:40px;
+    height:40px;
+
+}
+
+.twitter{
+  width:40px;
+  height:40px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:30%;
+
+}
+
+.bouton2 {
+
+  position:absolute;
+  top:100%;
+  margin-top:5%;
+  right:22%;
+  border: none;
+  background: #151e2c;
+  color:#ff1541 ;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+  box-shadow: 0px 0px 0px 1px #ff1541;
+  outline-style: none;
+}
+
+.bouton2:hover {
+  background: #ff1541;
+  color: #151e2c;
+}
+}
+
+@media (min-width: 1010px) and (max-width: 1900px) {
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#151e2c;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+
+    width: 60px;
+    height: 60px;
+
+
+  }
+
+  .logoReal {
+
+    position:absolute;
+    width: 40px;
+    height: 50px;
+    top:3%
+
+
+  }
+
+
+
+  .menuContainer{
+
+    float:right;
+    margin-top:23px;
+
+  }
+
+  .listMenu{
+
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .listLink{
+    font-family: 'catamaranregular';
+    color:#ff1541;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 1s ease;
+
+  }
+
+  .listLink:hover{
+    color:#fff;
+
+  }
+
+  .titleMenu{
+    display:none;
+  }
+
+
+
+
+
+/* SECTION ACCUEIL */
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+/* SECTION MBAPPE */
+
+.mbappe{
+  position:relative;
+  height:300px;
+}
+
+.titleMbappe{
+  font-family: 'catamaranregular';
+  color:#151e2c;
+  text-align: center;
+  font-size:25px;
+  padding-top:5%;
+
+}
+.ballon{
+  margin-top:0px;
+  width:30px;
+  height:30px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer{
+  position:absolute;
+  left:46%;
+  top:1%;
+}
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.mbappeContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.articleContainer {
+
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+}
+
+.articleContainer .mbappe1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .mbappe4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .mbappe4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.mbappe1{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe1.png) no-repeat top center;
+
+
+}
+
+.mbappe2{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe2.png) no-repeat top center;
+
+
+}
+
+.mbappe3{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe3.png) no-repeat top center;
+
+
+}
+
+.mbappe4{
+  width:250px;
+  height:232px;
+  background: url(../img/mbappe4.png) no-repeat top center;
+
+
+}
+
+
+/* SECTION NEYMAR */
+
+.neymar{
+
+  background-color:#151e2c;
+  position:relative;
+  height:500px;
+}
+
+.titleNeymar{
+  font-family: 'catamaranregular';
+  color:#ff1541;
+  text-align: center;
+  font-size:25px;
+  margin-top:15%;
+  padding-top:5%;
+}
+
+.ballon{
+  margin-top:0px;
+  width:50px;
+  height:50px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer2{
+  position:absolute;
+  left:48.5%;
+  top:1%;
+}
+
+.ballon2{
+  margin-top:0px;
+  width:50px;
+  height:50px;
+  animation-name: pulse_animation;
+  animation-duration: 1600ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ballonContainer{
+  position:absolute;
+  left:48.5%;
+  top:1%;
+}
+
+
+
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    40% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    60% {
+      transform: scale(0.9);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.neymarContainer {
+  margin-top:50px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.articleContainer {
+
+  margin-bottom: 10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.articleContainer .neymar1 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar1 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar2 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar2 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar3 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar3 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articleContainer .neymar4 {
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.articleContainer:hover .neymar4 {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+.neymar1{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar1.png) no-repeat top center;
+
+
+}
+
+.neymar2{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar2.png) no-repeat top center;
+
+
+}
+
+.neymar3{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar3.png) no-repeat top center;
+
+
+}
+
+.neymar4{
+  width:250px;
+  height:232px;
+  background: url(../img/neymar4.png) no-repeat top center;
+
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content{
+  margin-top:0;
+
+
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal_overlay2 {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 2);
+}
+
+.modal_content2{
+  margin-top:0px;
+
+
+}
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+.subscribe{
+
+  position:absolute;
+  top:20px;
+  left:45%;
+
+}
+
+.bouton2 {
+
+  position:absolute;
+  top:100%;
+  margin-top:5%;
+  right:22%;
+  border: none;
+  background: #151e2c;
+  color:#ff1541 ;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+  box-shadow: 0px 0px 0px 1px #ff1541;
+  outline-style: none;
+}
+
+.bouton2:hover {
+  background: #ff1541;
+  color: #151e2c;
+}
+
+.fb{
+  width:40px;
+  height:40px;
+}
+
+
+.insta{
+
+    width:40px;
+    height:40px;
+
+}
+
+.twitter{
+  width:40px;
+  height:40px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:30%;
+
+}
+
+.bouton{
+  display: none;
+}
+
+}
+
+}
