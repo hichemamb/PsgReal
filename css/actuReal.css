@@ -1,0 +1,452 @@
+@font-face {
+  font-family: 'catamaranregular';
+  src: url('catamaran-regular-webfont.woff2') format('woff2'), url('catamaran-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+
+
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#fff;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menuContainer{
+    display:none;
+  }
+  .bouton {
+
+    position:absolute;
+    top:15%;
+    right:5%;
+    border: none;
+    background:#fff ;
+    color:#438cbf ;
+    padding: 10px
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    box-shadow: 0px 0px 0px 1px #438cbf;
+    outline-style: none;
+  }
+
+  .bouton:hover {
+    background: #438cbf;
+    color: #fff;
+  }
+
+
+
+
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+
+
+
+.fb{
+  width:20px;
+  height:20px;
+}
+
+
+.insta{
+
+    width:20px;
+    height:20px;
+
+}
+
+.twitter{
+  width:20px;
+  height:20px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:40%;
+
+}
+
+.subscribe{
+  display:none;
+
+}
+
+
+}
+
+
+@media (min-width: 480px) and (max-width:1010px) {
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#fff;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menuContainer{
+    display:none;
+  }
+  .bouton {
+
+    position:absolute;
+    top:15%;
+    right:5%;
+    border: none;
+    background: #fff;
+    color:#438cbf ;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    box-shadow: 0px 0px 0px 1px #438cbf;
+    outline-style: none;
+  }
+
+  .bouton:hover {
+    background: #438cbf;
+    color: #fff;
+  }
+
+  .menuContainer{
+    display: none;
+  }
+
+
+
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+.subscribe{
+  position:absolute;
+  top:20px;
+  right:42%;
+}
+
+.zoneSubscribe{
+
+}
+
+.fb{
+  width:40px;
+  height:40px;
+}
+
+
+.insta{
+
+    width:40px;
+    height:40px;
+
+}
+
+.twitter{
+  width:40px;
+  height:40px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:30%;
+
+}
+
+.bouton2 {
+
+  position:absolute;
+  top:100%;
+  margin-top:5%;
+  right:22%;
+  border: none;
+  background: #fff;
+  color:#438cbf ;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+  box-shadow: 0px 0px 0px 1px #438cbf;
+  outline-style: none;
+}
+
+.bouton2:hover {
+  background: #438cbf;
+  color: #151e2c;
+}
+}
+
+@media (min-width: 1010px) and (max-width: 1900px) {
+
+  /* LE HEADER */
+
+
+  .headerContainer{
+    position:fixed;
+    background-color:#fff;
+    width:100%;
+    height:60px;
+    z-index:1;
+
+  }
+
+  .logo {
+
+    width: 60px;
+    height: 60px;
+
+
+  }
+
+  .logoReal {
+
+    position:absolute;
+    width: 40px;
+    height: 50px;
+    top:3%
+
+
+  }
+
+
+
+  .menuContainer{
+
+    float:right;
+    margin-top:23px;
+
+  }
+
+  .listMenu{
+
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .listLink{
+    font-family: 'catamaranregular';
+    color:#438cbf;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 1s ease;
+
+  }
+
+  .listLink:hover{
+    color:#ad9a4b;
+
+  }
+
+  .titleMenu{
+    display:none;
+  }
+
+
+.fond-img {
+  width: 100%;
+  margin-top:60px;
+
+}
+
+.titleArticle{
+  font-family: 'catamaranregular';
+  color:#ad9a4b;
+  text-align: center;
+  font-size:25px;
+  padding-top:3%;
+
+}
+
+.textArticle{
+  font-family: 'catamaranregular';
+  color:#438cbf;
+  text-align: center;
+  font-size:18px;
+  padding-top:3%;
+
+}
+
+.victoire{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  width: 50%;
+
+}
+
+.textBlock{
+  font-family: 'catamaranregular';
+  color:#438cbf;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size:18px;
+  padding-top:3%;
+  margin-left:3%;
+  margin-right:3%;
+  margin-top:5%;
+
+
+}
+
+.textContainer{
+  position:absolute;
+  top:190%;
+  left:60%;
+  width:50vh;
+  height:20vh;
+  background-color:#fff;
+
+}
+
+
+.footerContainer{
+  position:relative;
+  height:100px;
+  width:100%;
+  color:#fff;
+  margin-top:50vh;
+}
+
+
+.footerLogo{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+}
+
+.footerLogoReal{
+  width:40px;
+  height:50px;
+}
+
+
+.subscribe{
+
+  position:absolute;
+  top:20px;
+  left:45%;
+
+}
+
+.bouton2 {
+
+  position:absolute;
+  top:100%;
+  margin-top:5%;
+  right:22%;
+  border: none;
+  background: #fff;
+  color:#438cbf ;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+  box-shadow: 0px 0px 0px 1px #438cbf;
+  outline-style: none;
+}
+
+.bouton2:hover {
+  background: #438cbf;
+  color: #fff;
+}
+
+.fb{
+  width:40px;
+  height:40px;
+}
+
+
+.insta{
+
+    width:40px;
+    height:40px;
+
+}
+
+.twitter{
+  width:40px;
+  height:40px;
+}
+
+.reseaux{
+  position:absolute;
+  right:5%;
+  top:30%;
+
+}
+
+.bouton{
+  display: none;
+}
+
+}
+
+}
